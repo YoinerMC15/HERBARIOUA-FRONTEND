@@ -1,0 +1,15 @@
+@import 'primeicons/primeicons.css';
+
+body {
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    min-height: 100vh;
+  }
+  
+  
+  html, body, app-root {
+    height: 100%;
+  }
+/*#F5F5DC*/

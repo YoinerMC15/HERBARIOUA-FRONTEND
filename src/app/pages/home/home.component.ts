@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SidebarComponent } from '../../layout/sidebar/sidebar.component';
+//import { SidebarComponent } from '../../layout/sidebar/sidebar.component';
 import { TopbarComponent } from '../../layout/topbar/topbar.component';
-import { FooterComponent } from '../../layout/footer/footer.component';
+//import { FooterComponent } from '../../layout/footer/footer.component';
 
 import { RouterOutlet } from '@angular/router';
 
@@ -11,9 +11,7 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [
     CommonModule,
-    SidebarComponent,
     TopbarComponent,
-    FooterComponent,
     RouterOutlet
   ],
   templateUrl: './home.component.html',
